@@ -12,7 +12,9 @@
         <activity
             android:name=".View.DetailMovieActivity"
             android:theme="@style/DetailTheme" />
-        <activity android:name=".View.movieFragment">
+        <activity android:name=".View.BottomNavigationActivity" />
+        <activity android:name=".View.Edit_Profile" />
+        <activity android:name=".View.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

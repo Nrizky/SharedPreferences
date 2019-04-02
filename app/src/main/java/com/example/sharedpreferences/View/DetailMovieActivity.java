@@ -11,6 +11,7 @@ public class DetailMovieActivity extends AppCompatActivity {
     TextView MovieTitle;
     ImageView MoviePoster;
     TextView Overview;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
