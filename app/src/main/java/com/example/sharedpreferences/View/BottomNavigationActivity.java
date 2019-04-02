@@ -18,7 +18,7 @@ public class BottomNavigationActivity extends AppCompatActivity implements Botto
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottomnavigation);
         bottomNavigationView = findViewById(R.id.BottomNavigation);
-        loadFragment(new movieFragment());
+        loadFragment(new MovieFragment());
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
     }
 
@@ -34,10 +34,10 @@ public class BottomNavigationActivity extends AppCompatActivity implements Botto
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
             case R.id.movie_menu:
-                fragment = new movieFragment();
+                fragment = new MovieFragment();
                 break;
             case R.id.profile_menu:
-                fragment = new Akun();
+                fragment = new Profile();
                 break;
         }
         return loadFragment(fragment);

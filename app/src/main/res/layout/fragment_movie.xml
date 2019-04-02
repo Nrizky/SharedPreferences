@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/cream"
     android:id="@+id/scrollView"
-    tools:context=".View.movieFragment">
+    tools:context=".View.MovieFragment">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rvV"

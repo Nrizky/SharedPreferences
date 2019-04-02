@@ -38,7 +38,7 @@ public class Edit_Profile extends AppCompatActivity {
 
                     // Tambahkan ini jika sudah tidak ada lagi yang dilakukan
                     editor.commit();
-                    Intent intent = new Intent(getApplicationContext(), Akun.class);
+                    Intent intent = new Intent(getApplicationContext(), Profile.class);
                     startActivity(intent);
                     finish();
                 } else {
@@ -49,7 +49,7 @@ public class Edit_Profile extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), Akun.class));
+                startActivity(new Intent(getApplicationContext(), Profile.class));
                 finish();
             }
         });

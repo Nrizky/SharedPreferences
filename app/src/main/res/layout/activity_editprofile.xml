@@ -53,6 +53,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
+            android:background="@color/maroon"
+            android:textColor="@color/white"
             android:text="Save" />
 
         <Button
@@ -61,6 +63,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:layout_toRightOf="@id/btn_1"
+            android:background="@color/maroon"
+            android:textColor="@color/white"
             android:text="Cancel" />
     </RelativeLayout>
 </LinearLayout>

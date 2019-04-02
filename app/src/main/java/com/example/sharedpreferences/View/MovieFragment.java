@@ -19,14 +19,14 @@ import com.example.sharedpreferences.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class movieFragment extends Fragment implements MainView {
+public class MovieFragment extends Fragment implements MainView {
     RecyclerView rvVertical;
     MovieAdapter adapter;
     MoviePresenter presenter;
     List<MovieModel> movieModels = new ArrayList<>();
     View v;
 
-    public movieFragment() {
+    public MovieFragment() {
 
     }
 

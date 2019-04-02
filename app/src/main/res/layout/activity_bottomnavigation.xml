@@ -20,9 +20,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/bottomnavigation_menu"
-        app:itemIconTint="@color/black"
-        app:itemTextColor="@color/black"
-        android:background="@color/grey"
+        android:background="@color/maroon"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
         ></android.support.design.widget.BottomNavigationView>
 
 </RelativeLayout>

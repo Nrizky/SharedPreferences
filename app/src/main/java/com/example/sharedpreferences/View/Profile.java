@@ -19,14 +19,14 @@ import com.example.sharedpreferences.R;
 import static android.content.Context.MODE_PRIVATE;
 
 
-public class Akun extends Fragment {
+public class Profile extends Fragment {
     View v;
     Context ctx;
     private Button btn_edit, btn_logout;
     private EditText ET_1, ET_2;
     private String maiil, tllp, kata;
 
-    public Akun() {
+    public Profile() {
         // Required empty public constructor
     }
 
